@@ -1,9 +1,7 @@
-// TODO: Include packages needed for this application
-// console.log(process.argv);
 const fs = require("fs");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
 const questions = [
     {
         name: "title",
@@ -29,43 +27,31 @@ const questions = [
         name: "license",
         type: "list",
         message:  "What license(s) did you use?",
-        choices: ["MIT License", "ISC License", "IBM Public License"],
+        choices: ["MIT License", "ISC License", "IBM Public License", "None"],
     },
     {
         name: "features",
         message: "Did you add any features?",
+    },
+    {
+        name: "tests",
+        message: "Did you do any tests?"
+    },
+    {
+        name: "github",
+        message: "Please enter your GitHub name.",
+    },
+    {
+        name: "email",
+        message: "Please enter your email."
     }
-
 ];
 
-// TODO: Create a function to write README file
 function writeToFile(data) {
     const prompt = inquirer.createPromptModule();
     prompt(questions).then((data) => {
         console.log(data)
-        // const fileName = process.argv[2]
-        const readMe = 
-`# ${data.title}
-                       
-## Description 
-    ${data.description}
-                
-## Installation 
-    ${data.installation}
-                
-## Usage 
-    ${data.usage}
-                
-## Collaboration 
-    ${data.collab}
-                
-## License 
-    ${data.license}
-                
-## Features 
-    ${data.features}`
-
-        fs.writeFileSync(`${data.title}.md`, readMe, (err) =>
+        fs.writeFileSync(`${data.title}.md`, generateMarkdown(data), (err) =>
         err ? console.log(err) : console.log('Success!') )
     }
     );

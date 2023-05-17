@@ -1,38 +1,46 @@
 # Node.README
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
 
   ## Description 
-A way to use node.js to generate a README file
+This challenge showcased the ability to use node.js to create a README file. Along with node.js, we utilized Inquirer, Fs, and other JavaScript concepts.  
 
   ## Table of Contents
-[Installation] #installation)
+[Installation](#installation)
+
 [Usage](#usage)
+
 [Credits](#credits)
+
 [License](#license)
+
 [Features](#features)
+
 [Tests](#tests)
+
 [Questions](#questions)
                 
   ## Installation 
-Inquirer and FS
+Link: 
+Inquirer and Fs
                 
   ## Usage 
-Type "node index.js" in the CLI
+To generate a readme.md file, type "node index.js" into the integrated terminal and answer the prompt questions.
                 
   ## Credits 
 N/A
                
   ## License 
-MIT License
+ISC License
 
-  https://opensource.org/licenses/MIT
+  https://opensource.org/licenses/ISC
 
   ## Features 
-N/A
+A table of contents that allows you to see any section of the readme file and a list that gives you an option of three different licenses to from.
     
   ## Tests
-Ye
+You can test the functionality of the readme by adding whatever information you like in the prompted questions and viewing the results in a markdown file. 
 
   ## Questions? 
-[Visit my Github!](https://github.com/AipuAmeh)
+[Visit my Github!](https://github.com/AipuAmeh)  
+
 If you have any further questions, please email me at: aipuameh.16@gmail.com

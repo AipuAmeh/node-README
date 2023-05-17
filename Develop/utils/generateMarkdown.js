@@ -42,12 +42,18 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
   ## Table of Contents
-[Installation] #installation)
+[Installation](#installation)
+
 [Usage](#usage)
+
 [Credits](#credits)
+
 [License](#license)
+
 [Features](#features)
+
 [Tests](#tests)
+
 [Questions](#questions)
                 
   ## Installation 
@@ -70,7 +76,8 @@ ${data.features}
 ${data.tests}
 
   ## Questions? 
-[Visit my Github!](https://github.com/${data.github})
+[Visit my Github!](https://github.com/${data.github})  
+
 If you have any further questions, please email me at: ${data.email}
 `;
 }

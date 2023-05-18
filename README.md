@@ -38,7 +38,7 @@ ISC License
 A table of contents that allows you to see any section of the readme file and a list that gives you an option of three different licenses to from.
     
   ## Tests
-You can test the functionality of the readme by adding whatever information you like in the prompted questions and viewing the results in a markdown file. 
+N/A 
 
   ## Questions? 
 [Visit my Github!](https://github.com/AipuAmeh/node-README)  

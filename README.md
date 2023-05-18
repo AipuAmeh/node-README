@@ -28,7 +28,7 @@ Inquirer and Fs
 
                 
   ## Usage 
-To generate a readme.md file, type "node index.js" into the file index.js' integrated terminal and answer the prompt questions.
+To generate a readme.md file, type "node index.js" into the integrated terminal and answer the prompt questions.
                 
   ## Credits 
 N/A

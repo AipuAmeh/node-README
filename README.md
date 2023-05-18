@@ -20,7 +20,6 @@ This challenge showcased the ability to use node.js to create a README file. Alo
 [Questions](#questions)
                 
   ## Installation 
-Link: 
 Inquirer and Fs
                 
   ## Usage 

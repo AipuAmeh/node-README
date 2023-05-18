@@ -41,6 +41,6 @@ A table of contents that allows you to see any section of the readme file and a 
 You can test the functionality of the readme by adding whatever information you like in the prompted questions and viewing the results in a markdown file. 
 
   ## Questions? 
-[Visit my Github!](https://github.com/AipuAmeh)  
+[Visit my Github!](https://github.com/AipuAmeh/node-README)  
 
 If you have any further questions, please email me at: aipuameh.16@gmail.com
